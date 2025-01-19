@@ -11,7 +11,7 @@ spec:
   type: team
   profile:
     displayName: Game Devs
-    email: gamedevs@example.com
-    picture: https://example.com/path-to-team-picture.png
+    email: gamedevs@nokia.com
+    picture: https://i.imgur.com/CzXTtJV.jpg
   children: [Child1,Child2]
   parent: Game Head
