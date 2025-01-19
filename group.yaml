@@ -2,12 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
   name: game-devs
-  description: The Game Development team responsible for creating fun and engaging games.
+  description: The team responsible for creating games
 spec:
   type: team
   profile:
     displayName: Game Devs
     email: gamedevs@example.com
-    picture: https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg
-  children: []
-  parent: engineering
