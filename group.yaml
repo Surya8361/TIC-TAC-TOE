@@ -1,10 +1,14 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: game-devs
-  description: The team responsible for creating games
+  name: infrastructure
+  description: The infra business unit
 spec:
-  type: team
+  type: business-unit
   profile:
-    displayName: Game Devs
-    email: gamedevs@example.com
+    displayName: Infrastructure
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: ops
+  children: [backstage, other]
+  members: [jdoe]
