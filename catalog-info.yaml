@@ -7,10 +7,10 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Surya8361/TIC-TAC-TOE
   tags:
-    - Tic-Tac-Toe
-    - Javascript
-    - HTML
-    - CSS
+    - tic-tac-toe
+    - javascript
+    - html
+    - css
 spec:
   type: service
   lifecycle: production
