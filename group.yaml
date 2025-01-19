@@ -3,10 +3,6 @@ kind: Group
 metadata:
   name: game-devs
   description: The Game Development team responsible for creating fun and engaging games.
-  tags:
-    - games
-    - development
-    - javascript
 spec:
   type: team
   profile:
