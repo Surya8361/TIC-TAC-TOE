@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Tic-Tac-Toe
+  description: This is a simple Tic-tac-toe game
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: Surya8361/TIC-TAC-TOE
+  tags:
+    - Tic-Tac-Toe
+    - Javascript
+    - HTML
+    - CSS
+spec:
+  type: service
+  lifecycle: production
+  owner: Game-devs
