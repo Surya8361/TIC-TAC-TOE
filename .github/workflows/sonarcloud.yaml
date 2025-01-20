@@ -22,4 +22,4 @@ jobs:
             -Dsonar.projectKey=Surya8361_TIC-TAC-TOE
             -Dsonar.organization=surya8361
             -Dsonar.host.url=https://sonarcloud.io
-            -Dsonar.login=551a65b5b7d3ae4e08380d3e8af36afa291a62d7
+            -Dsonar.login=aa8cd4f28e6eafed17418fd2c76fef7d121473da
