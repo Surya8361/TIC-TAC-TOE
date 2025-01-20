@@ -1,0 +1,25 @@
+name: SonarCloud Analysis
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  sonarcloud:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: SonarCloud Scan
+        uses: sonarsource/sonarcloud-github-action@v2
+        with:
+          args: >
+            -Dsonar.projectKey=Surya8361_TIC-TAC-TOE
+            -Dsonar.organization=surya8361
+            -Dsonar.host.url=https://sonarcloud.io
+            -Dsonar.login=551a65b5b7d3ae4e08380d3e8af36afa291a62d7
