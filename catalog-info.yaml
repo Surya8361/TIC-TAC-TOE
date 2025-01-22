@@ -7,7 +7,7 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: Surya8361/TIC-TAC-TOE
     sonarqube.org/project-key: Surya8361_TIC-TAC-TOE
-    sonarqube.io/project-url: "https://sonarcloud.io/project/overview?id=Surya8361_TIC-TAC-TOE"
+    sonarqube.org/project-url: "https://sonarcloud.io/project/overview?id=Surya8361_TIC-TAC-TOE"
   tags:
     - tic-tac-toe
     - javascript
