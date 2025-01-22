@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: Tic-Tac-Toe
+  links:
+    - url: https://poki.com/en/g/tic-tac-toe-3
+      title: Tic-Tac-Toe
+      icon: dashboard
   description: This is a simple Tic-tac-toe game
   annotations:
     backstage.io/techdocs-ref: dir:.
