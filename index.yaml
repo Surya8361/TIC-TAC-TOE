@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Catalog
+metadata:
+  name: my-catalog
+spec:
+  items:
+    - apiVersion: backstage.io/v1alpha1
+      kind: Component
+      metadata:
+        name: my-jenkins-pipeline
