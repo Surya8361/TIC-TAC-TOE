@@ -8,7 +8,7 @@ metadata:
       icon: dashboard
   description: This is a simple Tic-tac-toe game
   annotations:
-    sonarqube.org/project-key: Surya8361_Style-Transfer-APP
+    sonarqube.org/project-key: 'Surya8361_Style-Transfer-APP'
     github.com/project-slug: Surya8361/TIC-TAC-TOE
     backstage.io/techdocs-ref: dir:.
   tags:
